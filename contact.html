@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>All Products - BUDDIES TRENDS</title>
+  <link href="http://font.googleapis.com/css2?
+  family=Poppins:wght@300;400;500;600;700&display=swap"
+  rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" width="50px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>  
+    </div>
+    </div>
+
+<!------ contact ------>
+
+   <div class="container-1">
+       <h1>Connect With Us</h1>
+       <p>We would love to respond to your queries and help you suceed.<br>Feel free to get in touch with us.</p>
+       <div class="contact-box">
+           <div class="contact-left">
+            <h3>Sent you request</h3>
+            <form>
+
+                <div class="input-row">
+                    <div class="input-group">
+                        <label>Name</label>
+                        <input type="text" placeholder="Name">
+                    </div>
+                    <div class="input-group">
+                        <label>Phone</label>
+                        <input type="text" placeholder="09*********">
+                    </div>
+
+                </div>
+                <div class="input-row">
+                    <div class="input-group">
+                        <label>Email</label>
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="input-group">
+                        <label>Subject</label>
+                        <input type="text" placeholder="Product Demo">
+                    </div>
+
+                </div>
+                <label>Message</label>
+                <textarea row="10" placeholder="Your Message"></textarea>
+
+                <button type="submit">Sent</button>
+
+            </form>
+           </div>
+           <div class="contact-right">
+            <h3>Reach Us</h3>
+
+            <table>
+                <tr>
+                    <td>Email</td>
+                    <td>buddiestrends@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Phone</td>
+                    <td>09165458909</td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td>#007, Ground floor, Blossom<br>Transmitter area Brgy 184<br>Maricaban Pasay City</td>
+                </tr>
+                <tr>
+                    <td>Facebook Page</td>
+                    <td>Buddies Trends</td>
+                </tr>
+                <tr>
+                    <td>Tiktok</td>
+                    <td>buddies Trends</td>
+                </tr>
+            </table>
+
+           </div>
+       </div>
+    </div>
+<!------ footer ------>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App For Android And Ios Mobile Phone</p>
+                    <div class="app-logo">
+                        <img src="images/g.png">
+                        <img src="images/app.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo1.png">
+                    <p>Our Purpose Is To Sustainably Make The Pleasure And Benefits Of Clothes Accessible To Many</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright">Copyright 2023 - Buddies Trends</p>
+        </div>
+    </div>
+<!------ js for toggle menu ------>
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px";
+                }
+            else
+                {
+                    MenuItems.style.maxHeight = "0px";
+                }
+            }
+    </script>
+
+ 
+
+</body>
+</html>
